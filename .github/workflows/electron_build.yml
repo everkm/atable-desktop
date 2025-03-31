@@ -88,9 +88,9 @@ jobs:
       - name: 📤 Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: EverkmNote-${{ matrix.os }}
+          name: aTable-${{ matrix.os }}
           path: |
-            out/EverkmNote*
+            out/aTable*
             out/latest*.yml
             out/alpha*.yml
             out/beta*.yml
